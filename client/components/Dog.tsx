@@ -10,8 +10,8 @@ function Dog(props: Props) {
     <div className="dog-wrapper">
       <div className="dog">
         <div className="dog-name-plate">
-          <span className="dog-name">{props.name}</span>
-          <span className="dog-breed">{props.breed}</span>
+          <h3 className="dog-name">{props.name}</h3>
+          <p className="dog-breed">{props.breed}</p>
         </div>
         <div>
           <img
