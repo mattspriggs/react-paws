@@ -46,6 +46,12 @@ function App() {
         superpower="Lightning speed"
         image="/images/greyhound.png"
       />
+      <Dog
+        name="Toodles"
+        breed="Pug"
+        superpower="Rocket Paws"
+        image="/images/pug.png"
+      />
     </div>
   )
 }

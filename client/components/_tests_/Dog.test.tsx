@@ -31,8 +31,10 @@ describe('<Dog /> component', () => {
 
     // Assert
     const alt = screen.getByAltText('Toodles is a Pug')
+    // const alt = screen.getByRole('alt')
     // const altText = screen.getByRole('alt')
     expect(alt).toHaveAttribute('src', '/images/pug.png')
     // expect(altText).toHaveTextContent('Toodles is a Poodle')
+    // expect(alt).toHaveAttribute('alt', 'Toodles is a Pug')
   })
 })
