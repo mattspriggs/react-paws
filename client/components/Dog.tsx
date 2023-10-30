@@ -2,7 +2,7 @@ interface Props {
   name: string
   breed: string
   superpower: string
-  image: string
+  image?: string
 }
 
 function Dog(props: Props) {
@@ -16,7 +16,7 @@ function Dog(props: Props) {
         <div>
           <img
             className="dog-pic"
-            alt={props.breed}
+            alt={`${props.name} is a ${props.breed}`}
             src={props.image}
           />
         </div>
